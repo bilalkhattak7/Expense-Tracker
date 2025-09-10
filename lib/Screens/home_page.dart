@@ -9,8 +9,14 @@ class HomePage extends StatelessWidget {
      appBar:AppBar(
        title: Text("Expense Tracker" ,style: TextStyle(fontWeight: FontWeight.bold),),
        backgroundColor: Colors.blue,
+     ),
+      body: Container(
+        width: 150,
+        height: 150,
+        color: Colors.blue,
+      ),
 
-     )
+
     );
   }
 }
