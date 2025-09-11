@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
-            width: 720,
+            width: 420,
             height: 120,
 
             decoration: BoxDecoration(
@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: 520,
+                width: 210,
                 height: 120,
 
                 decoration: BoxDecoration(
@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
                 child: Text("Total Income" , style: TextStyle( fontSize: 16, fontWeight: FontWeight.bold),),
               ),
               Container(
-                width: 520,
+                width: 210,
                 height: 120,
 
                 decoration: BoxDecoration(
